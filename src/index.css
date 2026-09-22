@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  --navy: #0f1d3a;
+  --navy-light: #1a2f5e;
+  --sky: #4a90e2;
+  --sky-light: #e8f0fb;
+  --green: #22c55e;
+  --red: #ef4444;
+  --yellow: #eab308;
+  --panel: #f5f7fa;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --muted: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Inter:Regular', sans-serif;
+  background: var(--navy);
+  color: var(--text);
+  margin: 0;
+}
+
+/* hide scrollbars by default, show on hover */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 2px; }
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-primary: #4a90e2;
+  --color-primary-foreground: #ffffff;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-border: #e2e8f0;
+  --radius: 6px;
+}

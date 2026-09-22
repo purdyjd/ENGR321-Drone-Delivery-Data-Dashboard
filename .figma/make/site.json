@@ -1,0 +1,10 @@
+{
+  "description": "Order supermarket products via drone and track delivery in real-time with simulated speed, providing a fast and efficient shopping experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
